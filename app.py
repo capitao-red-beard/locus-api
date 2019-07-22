@@ -2,8 +2,8 @@ from flask import Flask, jsonify, make_response, request, abort
 from azure.cosmosdb.table.models import Entity
 from azure.cosmosdb.table.tableservice import TableService
 
-table_service = TableService(account_name='samsmdplocusblob',
-                             account_key='zbes9W+zxPyTKTiNXdPnwR5fw/trxJKoMYtChkwTswGJGN1WKvKdj3BKwX5rBZGLGWXgLUaTXE5I2XvdrTu8pg==')
+table_service = TableService(account_name='',
+                             account_key='')
 
 app = Flask(__name__)
 app.config['JSON_SORT_KEYS'] = False
